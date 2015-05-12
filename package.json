@@ -1,0 +1,27 @@
+{
+  "name": "ipaddr-parser",
+  "version": "0.0.1",
+  "description": "ip addr parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/R-Vision/ipaddr-parser.git"
+  },
+  "keywords": [
+    "ip",
+    "addr",
+    "ipaddr"
+  ],
+  "author": "Nickolay Alexandrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/R-Vision/ipaddr-parser/issues"
+  },
+  "homepage": "https://github.com/R-Vision/ipaddr-parser",
+  "dependencies": {
+    "ip": "^0.3.2"
+  }
+}
