@@ -1,10 +1,10 @@
 {
   "name": "ipaddr-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ip addr parser",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,13 @@
+1: lo: <LOOPBACK,UP> mtu 16436 qdisc noqueue
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 brd 127.255.255.255 scope host lo
+    inet 127.0.0.2/8 brd 127.255.255.255 scope host secondary lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 6e:05:7e:6b:6b:8f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.23.83/24 brd 192.168.23.255 scope global eth0
+    inet6 fe80::6c05:7eff:fe6b:6b8f/64 scope link
+       valid_lft forever preferred_lft forever
+3: sit0: <NOARP> mtu 1480 qdisc noop
+    link/sit 0.0.0.0 brd 0.0.0.0

@@ -19,7 +19,7 @@ fs.readdir(dumpsDir, function (err, files) {
 
             try {
                 console.log(file);
-                console.log(ipaddrParser(data));
+                console.log(JSON.stringify(ipaddrParser(data), null, 2));
             } catch (err) {
                 throw err;
             }
