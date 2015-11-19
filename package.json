@@ -1,6 +1,6 @@
 {
   "name": "ipaddr-parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ip addr parser",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/R-Vision/ipaddr-parser",
   "dependencies": {
-    "ip": "1.0.2"
+    "ip": "1.1.0"
   }
 }
